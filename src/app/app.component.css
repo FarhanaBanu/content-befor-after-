@@ -1,0 +1,38 @@
+
+.action-container {
+    width: 20%;
+    position: absolute;
+    top: 220px;
+    right:500px;
+    
+    
+    border-bottom: 1px solid rgb(184, 53, 53);
+    border-top: 1px solid rgb(184, 53, 53);
+  }
+  
+  .action-container:before, .action-container:after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    width: 10px;
+    height: 0;
+    border-bottom: solid 10px transparent;
+    border-top: solid 10px transparent;
+  }
+  
+  .action-container:before {
+    left: -10px;
+    border-right: solid 10px yellowgreen;
+  }
+  
+  .action-container:after {
+    left: -9px;
+    border-right: solid 10px blue;
+  }
+  .feed-action-btn {
+    width: 100%;
+    text-align: left;
+    
+    padding: 5px 10px !important;
+    line-height: 1.75em;
+  }
